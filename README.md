@@ -39,3 +39,8 @@ The first implementation supports:
      static_configs:
        - targets: ["$Slave_IP:9100"]
 - Rerun manager `docker-compose up -d`
+
+
+## Acknowledgements
+
+This project uses [Prometheus](https://prometheus.io/), which is licensed under the [Apache License 2.0](https://github.com/prometheus/prometheus/blob/main/LICENSE).
